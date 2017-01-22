@@ -1,0 +1,748 @@
+/* body styling */
+
+body {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin: 0 auto;
+		background: url('http://www.myaucdata.com/bootcamp/bg-2.jpg');
+
+}
+
+/* viewport handheld device */
+
+@media screen and (max-width: 783px) {
+
+/* page wrapper */
+
+.container {
+		margin: 0 auto;
+		width: 640px;
+		background: #fff;
+		margin-bottom: 40px;
+		margin-top: 40px;
+		position: inline-block;
+		background: url('http://www.myaucdata.com/bootcamp/bg-grey.jpg');
+}
+
+/* header wrapper  */
+
+#container-header {
+
+		height: 100px;
+
+}
+
+/* left header */
+
+#left-header {
+		float: left;
+		width: 640px;
+		height: 90px;
+		display: inline-block;
+		background: #fff;
+		position: relative;
+		border-bottom: 3px solid #ddd;
+}
+
+/* right header */
+
+#right-header {
+		float: left;
+		width: 640px;
+		height: 60px;
+		display: inline-block;
+		background: #fff;
+		border-bottom: 3px solid #ddd;
+		position: relative;
+}
+
+/* left content wrapper */
+
+#left-content {
+     
+		float: left;
+		width: 600px;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 22px;
+}
+
+/*  left content */
+
+#left-content-inner {
+		width: 560px;
+		background: #fff;
+		display: inline-block;
+		padding-top: 40px;
+		padding-left: 28px;
+		color: #777;
+		text-align: justify;
+		border: 2px solid #ddd;
+		padding-bottom: 15px;
+}
+
+/* right content */
+
+#right-content{
+     	display: inline-block;
+     	margin-bottom: 0px;
+     	width: 640px;
+		margin-left: 20px;
+		margin-top: 40px;
+}
+
+/*  footer content */
+
+#footer-content {
+		width: 640px;
+		height: 30px;
+		display: inline-block;
+		position: relative;
+		bottom: 0;
+		background: #666;
+		margin-top: 30px;
+		border-top: 10px solid #4aaaa6;
+		text-align: center;
+		padding-top: 10px;
+		color: #666;
+		font-size: 12px;
+
+}
+
+/* connect */
+
+#connect {
+		height: 160px;
+		width: 570px;
+		background: #fff;
+		padding-left: 20px;
+		padding-top: 20px;
+		border: 2px solid #ddd;
+}
+
+/* h1 */
+
+h1 {
+		margin: 0;
+		margin-bottom: 20px;
+		padding: 20px 0;
+		font-size: 32px;
+		color: #fff;
+		text-align: center;
+		background: #333333;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+/* h2  */
+
+h2 {
+		font-size: 24px;
+		text-align: left;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+		font-weight: 800;
+}
+
+/* h4 */
+
+
+h4 {
+		font-size: 20px;
+		font-weight: 800;
+		text-align: left;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+/*  anchor */
+
+a {
+		color: #777;
+		text-decoration: none;
+}
+
+/* anchor hover */
+
+a:hover {
+		opacity: .5;
+		text-decoration: underline;
+}
+
+/* horizontal rule */
+
+hr {
+		width: 96%;
+		float: left;
+		border: 1.5px solid #ddd;
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+
+/* text area */
+
+textarea {
+		border: 1px solid #ddd;
+		width: 96%;
+		height: 180px;
+}
+
+/* input */
+
+input {
+		width: 96%;
+		height: 25px;
+		border: 1px solid #ddd;
+}
+
+/* name label header */
+
+.me {
+		width: 598px;
+		height: 43px;
+		background: #4aaaa5;
+		position: absolute;
+		padding: 21px;
+		padding-top: 26px;
+}
+
+/* nav bar links */
+
+.nav-bar {
+		margin-left: 20px;
+		font-size: 18px;
+		word-spacing: 60px;
+		margin-top: 20px;
+		color: #777;
+}
+
+/*  bio image */
+
+#bio-image {
+		width: 536px;
+		margin-bottom: 30px;
+		margin-right: 20px;
+}
+
+/* bio text */
+
+#bio-text {
+		display: inline-block;
+		line-height: 150%;
+		margin-right: 20px;
+		margin-top: 20px;
+}
+
+/* social icons */
+
+.social {
+		float: left;
+}
+
+/* content form */
+
+#contact-form {
+line-height: 150%;
+}
+
+/* submit button */
+
+.submit-button {
+		width: 100px;
+		height: 40px;
+		background: #4aaaa5;
+		float: left;
+		color: #fff;
+		border: 0px;
+		font-size: 18px;
+}
+
+/* portfolio project wrapper box */
+
+.port-box {
+		width: 538px;
+		height: 538px;
+		background: #ddd;
+		border: 1px solid #ddd;
+		margin-top: 30px;
+		margin-right: 35px;
+		display: inline-block;
+		position: static;
+		float:left;
+}
+
+/* portfolio box header */
+
+.port-box-header {
+		position: relative;
+		width: 538px;
+		height: 40px;
+		background: #4aaaa5;
+		top: -70px;
+		color: #fff;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 20px;
+}
+
+/* portfolio box image */
+
+.box-img {
+		width: 538px;
+		height: 538px;
+}
+
+}
+
+
+/* viewport Tablet */
+
+
+@media screen and (min-width: 784px) and (max-width: 979px) {
+
+
+	.container {
+		margin: 0 auto;
+		width: 768px;
+		background: #fff;
+		margin-bottom: 40px;
+		margin-top: 40px;
+		position: inline-block;
+		background: url('http://www.myaucdata.com/bootcamp/bg-grey.jpg');
+}
+
+#container-header {
+		height: 100px;
+}
+
+#left-header {
+		float: left;
+		width: 384px;
+		height: 90px;
+		display: inline-block;
+		background: #fff;
+		position: relative;
+		border-bottom: 3px solid #ddd;
+}
+
+#right-header {
+		float: left;
+		width: 384px;
+		height: 90px;
+		display: inline-block;
+		background: #fff;
+		border-bottom: 3px solid #ddd;
+		position: relative;
+}
+
+#left-content {
+		float: left;
+		width: 730px;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 22px;
+}
+
+#left-content-inner {
+		width: 694px;
+		background: #fff;
+		display: inline-block;
+		padding-top: 40px;
+		padding-left: 32px;
+		color: #777;
+		text-align: justify;
+		border: 2px solid #ddd;
+		padding-bottom: 75px;
+}
+
+#right-content{
+     	display: inline-block;
+     	float: left;
+     	margin-bottom: 10px;
+	 	width: 690px;
+		margin-left: 20px;
+		margin-top: 40px;
+}
+
+#footer-content {
+		width: 768px;
+		height: 55px;
+		display: inline-block;
+		position: relative;
+		bottom: 0;
+		background: #666;
+		margin-top: 30px;
+		border-top: 10px solid #4aaaa6;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		font-size: 12px;
+}
+
+#connect {
+		height: 160px;
+		width: 708px;
+		background: #fff;
+		padding-left: 20px;
+		padding-top: 20px;
+		border: 2px solid #ddd;
+}
+
+h1 {
+		margin: 0;
+		margin-bottom: 20px;
+		padding: 20px 0;
+		font-size: 32px;
+		color: #fff;
+		text-align: center;
+		background: #333333;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+h2 {
+		font-size: 24px;
+		text-align: left;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+		font-weight: 800;
+}
+
+h4 {
+		font-size: 20px;
+		font-weight: 800;
+		text-align: left;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+a {
+		color: #777;
+		text-decoration: none;
+}
+a:hover {
+		opacity: .5;
+		text-decoration: underline;
+}
+
+hr {
+		width: 96%;
+		float: left;
+		border: 1.5px solid #ddd;
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+
+textarea {
+		border: 1px solid #ddd;
+		width: 96%;
+		height: 180px;
+}
+
+input {
+		width: 96%;
+		height: 25px;
+		border: 1px solid #ddd;
+}
+
+.me {
+		width: 240px;
+		height: 43px;
+		background: #4aaaa5;
+		position: absolute;
+		margin-left: 20px;
+		padding: 21px;
+		padding-top: 26px;
+}
+
+.nav-bar {
+		font-size: 20px;
+		margin-top: 40px;
+		color: #777;
+}
+
+#bio-image {
+		width: 335px;
+		margin-bottom: 30px;
+		margin-right: 20px;
+		float: left;
+}
+
+#bio-text {
+		line-height: 150%;
+		margin-right: 20px;
+		margin-top: 20px;
+}
+.social {
+		float: left;
+}
+
+#contact-form {
+		line-height: 150%;
+}
+
+.submit-button {
+		width: 100px;
+		height: 40px;
+		background: #4aaaa5;
+		float: left;
+		color: #fff;
+		border: 0px;
+		font-size: 18px;
+}
+
+.port-box {
+		width: 310px;
+		height: 364px;
+		background: #ddd;
+		border: 1px solid #ddd;
+		margin-top: 30px;
+		margin-right: 35px;
+		display: inline-block;
+		position: static;
+		float:left;
+}
+
+.port-box-header {
+		position: relative;
+		width: 310px;
+		height: 40px;
+		background: #4aaaa5;
+		top: -70px;
+		color: #fff;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 20px;
+}
+
+
+.box-img {
+		width: 310px;
+		height: 364px;
+}
+
+}
+
+/* viewport desktop */
+
+@media screen and (min-width: 980px) {
+
+
+	.container {
+		margin: 0 auto;
+		width: 960px;
+		background: #fff;
+		margin-bottom: 40px;
+		margin-top: 40px;
+		position: inline-block;
+		background: url('http://www.myaucdata.com/bootcamp/bg-grey.jpg');
+}
+
+#container-header {
+		height: 100px;
+}
+
+#left-header {
+		float: left;
+		width: 480px;
+		height: 90px;
+		display: inline-block;
+		background: #fff;
+		position: relative;
+		border-bottom: 3px solid #ddd;
+}
+
+#right-header {
+		float: left;
+		width: 480px;
+		height: 90px;
+		display: inline-block;
+		background: #fff;
+		border-bottom: 3px solid #ddd;
+		position: relative;
+}
+
+#left-content {
+		float: left;
+		width: 555px;
+		margin-top: 40px;
+		margin-left: 10px;
+}
+
+#left-content-inner {
+		width: 380px;
+		background: #fff;
+		margin-left: 120px;
+		padding-top: 40px;
+		padding-left: 30px;
+		color: #777;
+		text-align: justify;
+		border: 2px solid #ddd;
+		padding-bottom: 75px;
+}
+
+#right-content{
+		float: left;
+		width: 360px;
+		height: 360px;
+		padding-left: 30px;
+		margin-top: 40px;
+}
+
+#footer-content {
+		width: 960px;
+		height: 55px;
+		display: inline-block;
+		position: relative;
+		bottom: 0;
+		background: #666;
+		margin-top: 30px;
+		border-top: 10px solid #4aaaa6;
+		text-align: center;
+		padding-top: 35px;
+		color: #fff;
+		font-size: 12px;
+}
+
+#connect {
+		height: 160px;
+		width: 240px;
+		background: #fff;
+		padding-left: 20px;
+		padding-top: 20px;
+		border: 2px solid #ddd;
+}
+
+h1 {
+		margin: 0;
+		margin-bottom: 20px;
+		padding: 20px 0;
+		font-size: 32px;
+		color: #fff;
+		text-align: center;
+		background: #333333;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+h2 {
+		font-size: 24px;
+		text-align: left;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+h4 {
+		font-size: 18px;
+		text-align: center;
+		color: #4aaaa5;
+		margin: 0;
+		font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+a {
+		color: #777;
+		text-decoration: none;
+}
+
+a:hover {
+		opacity: .5;
+		text-decoration: underline;
+}
+
+hr {
+		width: 92%;
+		float: left;
+		border: 1.5px solid #ddd;
+		margin-top: 30px;
+}
+
+textarea {
+		border: 1px solid #ddd;
+		width: 92%;
+		height: 180px;
+}
+
+input {
+		width: 92%;
+		height: 25px;
+		border: 1px solid #ddd;
+}
+
+.me {
+		width: 240px;
+		height: 43px;
+		background: #4aaaa5;
+		position: absolute;
+		margin-left: 90px;
+		padding: 21px;
+		padding-top: 26px;
+}
+
+.nav-bar {
+		font-size: 20px;
+		margin-top: 40px;
+		color: #777;
+}
+
+#bio-image {
+		margin: 0 auto;
+		width: 350px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+
+#bio-text {
+		width: 350px;
+		line-height: 150%;
+		padding-bottom: 30px;
+}
+
+.social {
+		margin-top: 55px;
+}
+
+
+#contact-form {
+		line-height: 150%;
+}
+
+.submit-button {
+		width: 100px;
+		height: 40px;
+		background: #4aaaa5;
+		float: left;
+		color: #fff;
+		border: 0px;
+		font-size: 18px;
+}
+.port-box {
+		width: 348px;
+		height: 364px;
+		background: #ddd;
+		border: 1px solid #ddd;
+		margin-top: 30px;
+		display: inline-block;
+}
+
+.port-box-header {
+		position: relative;
+		width: 348px;
+		height: 40px;
+		background: #4aaaa5;
+		top: -70px;
+		color: #fff;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 20px;
+}
+
+.box-img {
+		width: 346px;
+		height: 364px;
+}
+
+
+	
+}
